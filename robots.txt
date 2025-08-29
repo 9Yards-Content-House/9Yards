@@ -2,7 +2,7 @@ User-agent: *
 Allow: /
 
 # Sitemap
-Sitemap: https://9yards.com/sitemap.xml
+Sitemap: https://9yards.co.ug/sitemap.xml
 
 # Disallow unnecessary files
 Disallow: /vendor/
