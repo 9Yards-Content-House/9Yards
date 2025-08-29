@@ -1,0 +1,15 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://9yards.com/sitemap.xml
+
+# Disallow unnecessary files
+Disallow: /vendor/
+Disallow: /*.css$
+Disallow: /*.js$
+Disallow: /fonts/
+
+# Allow main pages
+Allow: /index.html
+Allow: /images/

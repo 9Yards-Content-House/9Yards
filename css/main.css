@@ -549,6 +549,26 @@ body, html {
   }
 }
 
+/* Contact Info Styles */
+.contact-info {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.contact-info a {
+  text-decoration: none;
+  transition: opacity 0.3s ease;
+}
+
+.contact-info a:hover {
+  opacity: 0.8;
+  text-decoration: none;
+}
+
+.contact-info .fas {
+  font-size: 14px;
+}
+
 /* Improved button styling */
 .how-btn1 {
   border-radius: 25px;
@@ -749,6 +769,14 @@ body, html {
     padding-right: 15px !important;
     padding-bottom: 15px !important;
     padding-top: 10px !important;
+  }
+
+  .contact-info {
+    margin-top: 20px;
+  }
+
+  .contact-info p {
+    font-size: 12px;
   }
 }
 
