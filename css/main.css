@@ -231,86 +231,17 @@ body, html {
 
 /*//////////////////////////////////////////////////////////////////
 [ RS Flip Clock ]*/
-
-/* Timer container - ensure no scrollbars */
-.cd100 {
-  overflow: hidden !important;
-  width: 100%;
-  max-width: 100%;
-}
-
-/* Hide scrollbars on all timer elements */
-.cd100 *,
-.flip-clock-wrapper *,
 .flip-clock-wrapper {
-  scrollbar-width: none !important; /* Firefox */
-  -ms-overflow-style: none !important; /* Internet Explorer 10+ */
-  overflow-x: hidden !important;
-  overflow-y: hidden !important;
-}
-
-/* Hide scrollbars on webkit browsers */
-.cd100 *::-webkit-scrollbar,
-.flip-clock-wrapper *::-webkit-scrollbar,
-.flip-clock-wrapper::-webkit-scrollbar {
-  display: none !important;
-  width: 0 !important;
-  height: 0 !important;
-  background: transparent !important;
-}
-
-/* Mobile-first base styles for flip clock */
-@media (max-width: 768px) {
-  .flip-clock-wrapper {
-    flex-wrap: nowrap !important;
-    overflow: hidden !important; /* Remove all scrolling */
-    -webkit-overflow-scrolling: touch;
-    justify-content: flex-start !important;
-    width: 100%;
-    max-width: 100%;
-    margin-left: 0;
-    margin-right: 0;
-  }
-  
-  .flip-clock-wrapper ul,
-  .flip-clock-divider {
-    flex-shrink: 0 !important;
-  }
-  
-  /* Ensure content container alignment */
-  .respon1 {
-    padding-right: 15px !important;
-  }
-  
-  .respon3 {
-    width: 100%;
-    max-width: 100%;
-  }
-  
-  /* Prevent text from breaking layout */
-  .l1-txt1, .l1-txt2 {
-    word-break: break-word;
-    hyphens: auto;
-  }
-  
-  /* Ensure social icons stay in one row */
-  nav.flex-w {
-    flex-wrap: nowrap;
-    gap: 4px;
-  }
-}
-
-.flip-clock-wrapper {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-wrap: nowrap; /* Prevent wrapping to keep all items in one line */
+  flex-wrap: wrap;
   position: relative;
   max-width: 100%;
   margin: 0;
   margin-bottom: 20px;
-  justify-content: flex-start; /* Align to left */
-  align-items: center;
-  overflow: hidden; /* Prevent all scrolling */
-  gap: 1px; /* Small consistent gap between elements */
 }
 
 .flip-clock-wrapper .flip {
@@ -358,7 +289,7 @@ body, html {
   z-index: 1;
   width: 100%;
   height: 200%;
-  text-shadow: 0 0px 0px #000;
+  text-shadow: 0 0px 0px #E6411C;
   background-color: #E6411C;
   border-radius: 3px;
 } 
@@ -398,8 +329,6 @@ body, html {
   align-items: center;
   width: 100%;
   height: 100%;
-  line-height: 1;
-  vertical-align: middle;
 }
 
 .flip-clock-divider.days::before {
@@ -416,10 +345,9 @@ body, html {
   text-align: center;
   width: 90px;
   position: absolute;
-  left: -32px;
+  left: 100%;
   top: 100%;
   padding-top: 16px;
-  z-index: 10;
 }
 
 .flip-clock-divider.days::after {
@@ -438,301 +366,24 @@ body, html {
   content: "sec";
 }
 
-/* Flip Clock Responsive Styles - Mobile First */
-
-/* Extra Small Mobile (320px and below) */
-@media (max-width: 320px) {
+@media (max-width: 1200px) {
   .flip-clock-wrapper {
-    max-width: 100%;
-    width: 100%;
-    margin: 0 0 8px 0;
-    justify-content: flex-start;
-    flex-wrap: nowrap;
-    overflow: hidden !important;
-    gap: 0.5px;
-  }
-
-  .flip-clock-wrapper ul {
-    width: 18px;
-    height: 24px;
-    font-size: 12px;
-    margin: 0.5px;
-    flex-shrink: 0;
-  }
-
-  .flip-clock-wrapper ul li a div div.inn {
-    font-size: 12px;
-  }
-
-  .flip-clock-divider {
-    width: 8px;
-    height: 24px;
-    flex-shrink: 0;
-  }
-
-  .flip-clock-divider::before {
-    font-size: 10px;
-    line-height: 1;
-    vertical-align: middle;
-  }
-
-  .flip-clock-divider::after {
-    font-size: 8px;
-    width: 35px;
-    padding-top: 8px;
-    left: -8px;
-    z-index: 10;
+    justify-content: center;
   }
 }
 
-/* Small Mobile (321px - 480px) */
-@media (min-width: 321px) and (max-width: 480px) {
+@media (max-width: 576px) {
   .flip-clock-wrapper {
-    max-width: 100%;
-    width: 100%;
-    margin: 0 0 10px 0;
-    justify-content: flex-start;
-    flex-wrap: nowrap;
-    overflow: hidden !important;
-    gap: 0.5px;
-  }
-
-  .flip-clock-wrapper ul {
-    width: 20px;
-    height: 28px;
-    font-size: 14px;
-    margin: 0.5px;
-    flex-shrink: 0;
-  }
-
-  .flip-clock-wrapper ul li a div div.inn {
-    font-size: 14px;
-  }
-
-  .flip-clock-divider {
-    width: 10px;
-    height: 28px;
-    flex-shrink: 0;
-  }
-
-  .flip-clock-divider::before {
-    font-size: 12px;
-    line-height: 1;
-    vertical-align: middle;
-  }
-
-  .flip-clock-divider::after {
-    font-size: 9px;
-    width: 40px;
-    padding-top: 10px;
-    left: -10px;
-    z-index: 10;
-  }
-}
-
-/* Mobile (481px - 576px) */
-@media (min-width: 481px) and (max-width: 576px) {
-  .flip-clock-wrapper {
-    max-width: 100%;
-    width: 100%;
-    margin: 0 0 12px 0;
-    justify-content: flex-start;
-    flex-wrap: nowrap;
-    overflow: hidden !important;
-    gap: 1px;
-  }
-
-  .flip-clock-wrapper ul {
-    width: 24px;
-    height: 32px;
-    font-size: 18px;
-    margin: 0.5px;
-    flex-shrink: 0;
-  }
-
-  .flip-clock-wrapper ul li a div div.inn {
-    font-size: 18px;
-  }
-
-  .flip-clock-divider {
-    width: 12px;
-    height: 32px;
-    flex-shrink: 0;
-  }
-
-  .flip-clock-divider::before {
-    font-size: 14px;
-    line-height: 1;
-    vertical-align: middle;
-  }
-
-  .flip-clock-divider::after {
-    font-size: 10px;
-    width: 50px;
-    padding-top: 14px;
-    left: -12px;
-    z-index: 10;
+    max-width: 240px;
+    margin-right: 26px;
   }
 
   .flip-clock-divider.days {
-    width: 14px;
-  }
-}
-
-/* Large Mobile / Small Tablet (577px - 768px) */
-@media (min-width: 577px) and (max-width: 768px) {
-  .flip-clock-wrapper {
-    max-width: 100%;
-    width: 100%;
-    margin: 0 0 20px 0;
-    justify-content: flex-start;
-    flex-wrap: nowrap;
-    overflow: hidden !important;
-    gap: 2px;
-  }
-
-  .flip-clock-wrapper ul {
-    width: 36px;
-    height: 48px;
-    font-size: 30px;
-    margin: 2px;
-  }
-
-  .flip-clock-wrapper ul li a div div.inn {
-    font-size: 30px;
-  }
-
-  .flip-clock-divider {
-    width: 22px;
-    height: 48px;
-  }
-
-  .flip-clock-divider::before {
-    font-size: 24px;
-    line-height: 1;
-    vertical-align: middle;
-  }
-
-  .flip-clock-divider::after {
-    font-size: 11px;
-    width: 70px;
-    padding-top: 16px;
-    left: -24px;
-    z-index: 10;
-  }
-}
-
-/* Tablet (769px - 992px) */
-@media (min-width: 769px) and (max-width: 992px) {
-  .flip-clock-wrapper {
-    justify-content: flex-start;
-    margin-bottom: 25px;
-  }
-
-  .flip-clock-wrapper ul {
-    width: 38px;
-    height: 50px;
-    font-size: 32px;
-    margin: 2px;
-  }
-
-  .flip-clock-wrapper ul li a div div.inn {
-    font-size: 32px;
-  }
-
-  .flip-clock-divider {
-    width: 24px;
-    height: 50px;
-  }
-
-  .flip-clock-divider::before {
-    font-size: 26px;
-    line-height: 1;
-    vertical-align: middle;
-  }
-
-  .flip-clock-divider::after {
-    font-size: 11px;
-    width: 80px;
-    padding-top: 16px;
-    left: -26px;
-    z-index: 10;
-  }
-}
-
-/* Large Tablet / Small Desktop (993px - 1199px) */
-@media (min-width: 993px) and (max-width: 1199px) {
-  .flip-clock-wrapper {
-    justify-content: flex-start;
-    margin-bottom: 30px;
-  }
-
-  .flip-clock-wrapper ul {
-    width: 40px;
-    height: 52px;
-    font-size: 34px;
-    margin: 2px;
-  }
-
-  .flip-clock-wrapper ul li a div div.inn {
-    font-size: 34px;
-  }
-
-  .flip-clock-divider {
-    width: 25px;
-    height: 52px;
-  }
-
-  .flip-clock-divider::before {
-    font-size: 28px;
-    line-height: 1;
-    vertical-align: middle;
-  }
-
-  .flip-clock-divider::after {
-    font-size: 11px;
-    width: 85px;
-    padding-top: 16px;
-    left: -28px;
-    z-index: 10;
-  }
-}
-
-/* Desktop (1200px+) */
-@media (min-width: 1200px) {
-  .flip-clock-wrapper {
-    justify-content: flex-start;
-    margin-bottom: 20px;
-  }
-
-  .flip-clock-wrapper ul {
-    width: 41px;
-    height: 54px;
-    font-size: 36px;
-    margin: 2px;
-  }
-
-  .flip-clock-wrapper ul li a div div.inn {
-    font-size: 35px;
-  }
-
-  .flip-clock-divider {
     width: 26px;
-    height: 54px;
   }
 
-  .flip-clock-divider::before {
-    font-size: 30px;
-    line-height: 1;
-    vertical-align: middle;
-  }
-
-  .flip-clock-divider::after {
-    font-size: 12px;
-    width: 90px;
-    padding-top: 16px;
-    left: -32px;
-    z-index: 10;
+  .flip-clock-divider.minutes::before {
+    display: none;
   }
 }
 
