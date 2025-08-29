@@ -4,7 +4,7 @@
 <head>
 	<title>9Yards - Coming Soon | Content Creation Agency</title>
 	<meta charset="UTF-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, viewport-fit=cover" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 	<meta name="theme-color" content="#212282" />
 	<meta name="robots" content="index, follow" />
@@ -62,17 +62,17 @@
 
 <body>
 	<div class="bg-img1 size1 overlay1 p-t-24" style="background-image: url('images/bg01.jpg')">
-		<div class="flex-w flex-sb-m p-l-80 p-r-74 p-b-175 respon5">
+		<div class="flex-w flex-sb-m respon5">
 			<div class="wrappic1 m-r-30 m-t-10 m-b-10">
 				<a href="/" aria-label="9Yards Content House Homepage"><img src="images/icons/9yards-logo.png" alt="9Yards Content House Logo" class="logo-img"/></a>
 			</div>
 
-			<div class="flex-w m-t-10 m-b-10">
-				<a href="https://www.facebook.com/9yardscontenthouse" target="_blank" rel="noopener noreferrer" class="size3 flex-c-m how-social trans-04 m-r-6" aria-label="Follow us on Facebook">
+			<nav class="flex-w m-t-10 m-b-10" aria-label="Social Media Links">
+				<a href="#" target="_blank" rel="noopener noreferrer" class="size3 flex-c-m how-social trans-04 m-r-6" aria-label="Follow us on Facebook">
 					<i class="fab fa-facebook-f"></i>
 				</a>
 
-				<a href="https://www.instagram.com/9_yards_content_house_/" target="_blank" rel="noopener noreferrer" class="size3 flex-c-m how-social trans-04 m-r-6" aria-label="Follow us on Instagram">
+				<a href="https://www.instagram.com/9yards_content_house/" target="_blank" rel="noopener noreferrer" class="size3 flex-c-m how-social trans-04 m-r-6" aria-label="Follow us on Instagram">
 					<i class="fab fa-instagram"></i>
 				</a>
 
@@ -83,16 +83,16 @@
 				<a href="https://www.youtube.com/@9Yards-ch" target="_blank" rel="noopener noreferrer" class="size3 flex-c-m how-social trans-04 m-r-6" aria-label="Subscribe to our YouTube">
 					<i class="fab fa-youtube"></i>
 				</a>
-			</div>
+			</nav>
 		</div>
 
-		<div class="flex-w flex-sa p-r-200 respon1">
-			<div class="p-t-34 p-b-60 respon3">
-				<p class="l1-txt1 p-b-10 respon2">Something Big is Coming…</p>
+		<main class="flex-w flex-sa p-r-200 respon1">
+			<section class="p-t-34 p-b-60 respon3">
+				<h1 class="l1-txt1 p-b-10 respon2">Something Big is Coming…</h1>
 
-				<h3 class="l1-txt2 p-b-45 respon2 respon4">Stay Tuned!</h3>
+				<h2 class="l1-txt2 p-b-45 respon2 respon4">Stay Tuned!</h2>
 
-				<div class="cd100"></div>
+				<div class="cd100" role="timer" aria-label="Countdown timer"></div>
 				
 				<!-- Contact Info -->
 				<!-- <div class="contact-info m-t-50">
@@ -102,10 +102,8 @@
 						<a href="mailto:info@9yards.co.ug" class="cl0">info@9yards.com</a>
 					</p>
 				</div> -->
-			</div>
-
-			
-		</div>
+			</section>
+		</main>
 	</div>
 
 	<!--===============================================================================================-->
@@ -133,6 +131,28 @@
 					countdown.classList.add('countdown-loaded');
 				}, 500);
 			}
+
+			// Mobile-specific optimizations
+			if (window.innerWidth <= 768) {
+				// Add mobile class for additional styling
+				document.body.classList.add('mobile-device');
+				
+				// Optimize touch events
+				document.addEventListener('touchstart', function() {}, { passive: true });
+			}
+
+			// Handle orientation changes
+			window.addEventListener('orientationchange', function() {
+				setTimeout(function() {
+					// Recalculate viewport height
+					const vh = window.innerHeight * 0.01;
+					document.documentElement.style.setProperty('--vh', `${vh}px`);
+				}, 100);
+			});
+
+			// Set initial viewport height
+			const vh = window.innerHeight * 0.01;
+			document.documentElement.style.setProperty('--vh', `${vh}px`);
 		});
 
 		// Initialize countdown with error handling
