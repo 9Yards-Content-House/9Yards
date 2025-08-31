@@ -5481,7 +5481,7 @@ body.tp-magic-cursor #magic-cursor {
 }
 .tp-header-shop-wrap .dropdown-white-bg nav ul li .tp-submenu {
   border-radius: 0 0 14px 14px;
-  background: rgba(244, 240, 234, 0.8);
+  background: rgb(255, 255, 255);
   border: 1px solid rgba(77, 61, 48, 0.12);
 }
 .tp-header-shop-menu > nav > ul {
@@ -6065,13 +6065,13 @@ body.tp-magic-cursor #magic-cursor {
 }
 .tp-megamenu-thumb img {
   height: 100%;
-  object-fit: cover;
+  object-fit: cover; 
   width: 100%;
   overflow: hidden;
 }
 
 .dropdown-white-bg nav ul li .tp-submenu {
-  background: rgba(255, 255, 255, 0.9);
+  background: rgba(255, 255, 255);
 }
 .dropdown-white-bg nav ul li .tp-submenu li a {
   color: #636368;
