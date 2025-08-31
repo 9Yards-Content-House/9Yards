@@ -12418,7 +12418,7 @@ body.tp-magic-cursor #magic-cursor {
 .dgm-hero-title {
   font-weight: 700;
   font-size: 95px;
-  line-height: 0.9;
+  line-height: 1.1;
   margin-bottom: 0;
   margin-bottom: 40px;
   letter-spacing: -0.04em;
@@ -45182,6 +45182,32 @@ body.tp-magic-cursor #magic-cursor {
 .agntix-light .pp-about-me-social .tp-footer-widget-social a:hover {
   color: #2F1F19;
   background-color: var(--tp-common-white);
+}
+
+/* Hero Description Styles */
+.dgm-hero-desc-text {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #666;
+  margin: 30px 0;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (max-width: 768px) {
+  .dgm-hero-desc-text {
+    font-size: 16px;
+    margin: 20px 0;
+    padding: 0 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .dgm-hero-desc-text {
+    font-size: 14px;
+    margin: 15px 0;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */
