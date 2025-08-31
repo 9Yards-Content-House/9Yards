@@ -1557,37 +1557,21 @@ input[type=color] {
   padding: 18px 24px;
   letter-spacing: -0.01em;
   text-transform: capitalize;
-  color: var(--tp-common-black);
+  color: white;
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  background-color: var(--tp-common-green-regular);
+  background-color: #E6411C;
+  transition: all 0.3s ease;
 }
 .tp-btn-yellow-green.green-solid span {
-  position: relative;
-  z-index: 1;
-  overflow: hidden;
-  display: inline-block;
-}
-.tp-btn-yellow-green.green-solid span span.text-1 {
-  position: relative;
-  display: block;
-  transition: 0.3s;
-}
-.tp-btn-yellow-green.green-solid span span.text-2 {
-  position: absolute;
-  top: 100%;
-  display: block;
-  transition: 0.3s;
+  transition: 0.3s ease;
 }
 .tp-btn-yellow-green.green-solid.btn-60 {
   padding: 23px 24px;
 }
 .tp-btn-yellow-green.green-solid.btn-60 span {
-  position: relative;
-  z-index: 1;
-  overflow: hidden;
-  display: inline-block;
+  transition: 0.3s ease;
 }
 .tp-btn-yellow-green.green-solid.btn-60 span span.text-1 {
   position: relative;
@@ -1622,16 +1606,9 @@ input[type=color] {
   opacity: 0;
 }
 .tp-btn-yellow-green.green-solid.btn-60:hover {
-  color: var(--tp-common-black);
-}
-.tp-btn-yellow-green.green-solid.btn-60:hover span span.text-1 {
-  -webkit-transform: translateY(-150%);
-  transform: translateY(-150%);
-}
-.tp-btn-yellow-green.green-solid.btn-60:hover span span.text-2 {
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-  transform: translateY(-50%);
+  background-color: #cc3717;
+  color: white;
+  transform: translateY(-2px);
 }
 .tp-btn-yellow-green.green-solid.btn-60:hover i svg:first-child {
   transform: translate(16px, -16px);
@@ -1642,19 +1619,12 @@ input[type=color] {
   transform: translate(13px, -13px);
 }
 .tp-btn-yellow-green.green-solid:hover {
-  color: var(--tp-common-black);
-}
-.tp-btn-yellow-green.green-solid:hover span span.text-1 {
-  -webkit-transform: translateY(-150%);
-  transform: translateY(-150%);
-}
-.tp-btn-yellow-green.green-solid:hover span span.text-2 {
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-  transform: translateY(-50%);
+  background-color: #cc3717;
+  color: white;
+  transform: translateY(-2px);
 }
 .tp-btn-yellow-green.green-solid:focus {
-  color: var(--tp-common-black);
+  color: white;
 }
 .tp-btn-yellow-green:hover {
   color: var(--tp-common-black);
@@ -2703,7 +2673,7 @@ input[type=color] {
 }
 
 .grey-bg-2 {
-  background-color: var(--tp-grey-4);
+  background-color: #F1EEFF;
 }
 
 .green-bg {
@@ -4834,8 +4804,8 @@ body.tp-magic-cursor #magic-cursor {
   width: 50px;
   line-height: 50px;
   border-radius: 10px;
-  color: var(--tp-common-black);
-  background-color: var(--tp-common-green-regular);
+  color: #fff;
+  background-color: #E6411C;
 }
 .tp-header-3-style .tp-header-bar button i {
   width: 24px;
