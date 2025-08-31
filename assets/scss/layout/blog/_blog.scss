@@ -31,7 +31,7 @@
             margin-bottom: 2px;
             letter-spacing: -0.04em;
             color: var(--tp-common-black);
-            font-family: var(--tp-ff-grotesk);
+            font-family: var(--tp-ff-heading);
         }
         & span{
             font-weight: 400;
@@ -59,7 +59,7 @@
         line-height: 1;
         letter-spacing: -0.04em;
         color: var(--tp-common-black);
-        font-family: var(--tp-ff-grotesk);
+        font-family: var(--tp-ff-heading);
         @media #{$xl,$lg}{
             font-size: 30px;
         }

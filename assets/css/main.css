@@ -3635,7 +3635,7 @@ input[type=color] {
   line-height: 1;
   letter-spacing: -0.03em;
   color: var(--tp-common-black);
-  font-family: var(--tp-ff-grotesk);
+  font-family: var(--tp-ff-heading);
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
   .tp-section-title-grotesk {
@@ -8246,7 +8246,7 @@ body.tp-magic-cursor #magic-cursor {
   margin-bottom: 2px;
   letter-spacing: -0.04em;
   color: var(--tp-common-black);
-  font-family: var(--tp-ff-grotesk);
+  font-family: var(--tp-ff-heading);
 }
 .dgm-blog-meta span {
   font-weight: 400;
@@ -8271,7 +8271,7 @@ body.tp-magic-cursor #magic-cursor {
   line-height: 1;
   letter-spacing: -0.04em;
   color: var(--tp-common-black);
-  font-family: var(--tp-ff-grotesk);
+  font-family: var(--tp-ff-heading);
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px) {
   .dgm-blog-title-sm {
@@ -9830,7 +9830,7 @@ body.tp-magic-cursor #magic-cursor {
   font-size: 24px;
   margin-bottom: 25px;
   color: var(--tp-common-white);
-  font-family: var(--tp-ff-grotesk);
+  font-family: var(--tp-ff-heading);
 }
 .dgm-footer-widget-menu ul li {
   list-style-type: none;
@@ -12502,7 +12502,7 @@ body.tp-magic-cursor #magic-cursor {
   letter-spacing: 0.04em;
   text-transform: uppercase;
   color: var(--tp-common-black);
-  font-family: var(--tp-ff-grotesk);
+  font-family: var(--tp-ff-heading);
 }
 .dgm-hero-rotate-text span::after {
   content: "";
@@ -12531,7 +12531,7 @@ body.tp-magic-cursor #magic-cursor {
   margin-bottom: 0;
   letter-spacing: -0.02em;
   color: var(--tp-common-black);
-  font-family: var(--tp-ff-grotesk);
+  font-family: var(--tp-ff-heading);
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .dgm-hero-text-box p {
@@ -15265,7 +15265,7 @@ body.tp-magic-cursor #magic-cursor {
   margin-bottom: 0;
   letter-spacing: -0.04em;
   color: var(--tp-common-black);
-  font-family: var(--tp-ff-grotesk);
+  font-family: var(--tp-ff-heading);
 }
 .dgm-about-review span {
   font-weight: 400;
@@ -17751,7 +17751,7 @@ body.tp-magic-cursor #magic-cursor {
   min-width: 100px;
   transition: 0.3s;
   color: var(--tp-common-white);
-  font-family: var(--tp-ff-grotesk);
+  font-family: var(--tp-ff-heading);
 }
 @media (max-width: 767px) {
   .dgm-service-content-left span {
@@ -17843,7 +17843,7 @@ body.tp-magic-cursor #magic-cursor {
   line-height: 1.07;
   letter-spacing: -0.02em;
   color: var(--tp-common-white);
-  font-family: var(--tp-ff-grotesk);
+  font-family: var(--tp-ff-heading);
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .dgm-service-title-sm br {
@@ -19496,7 +19496,7 @@ body.tp-magic-cursor #magic-cursor {
   font-weight: 700;
   line-height: 1;
   color: #030303;
-  font-family: var(--tp-ff-grotesk);
+  font-family: var(--tp-ff-heading);
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px) {
   .tp-service-4-title {
@@ -19533,7 +19533,7 @@ body.tp-magic-cursor #magic-cursor {
   font-weight: 500;
   line-height: 28px;
   color: #525252;
-  font-family: var(--tp-ff-grotesk);
+  font-family: var(--tp-ff-heading);
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px) {
   .tp-service-4-text p {
@@ -19562,7 +19562,7 @@ body.tp-magic-cursor #magic-cursor {
   line-height: 26px;
   display: inline-block;
   color: var(--tp-common-black);
-  font-family: var(--tp-ff-grotesk);
+  font-family: var(--tp-ff-heading);
 }
 .tp-service-4-banner-breadcrumb span:not(:last-of-type) {
   margin-right: 25px;
@@ -19633,7 +19633,7 @@ body.tp-magic-cursor #magic-cursor {
   line-height: 1;
   color: #030303;
   letter-spacing: -1px;
-  font-family: var(--tp-ff-grotesk);
+  font-family: var(--tp-ff-heading);
 }
 @media only screen and (min-width: 1400px) and (max-width: 1599px) {
   .tp-service-4-solution-title {
@@ -19678,7 +19678,7 @@ body.tp-magic-cursor #magic-cursor {
   color: #030303;
   margin-bottom: 16px;
   letter-spacing: -0.34px;
-  font-family: var(--tp-ff-grotesk);
+  font-family: var(--tp-ff-heading);
 }
 @media (max-width: 767px) {
   .tp-service-4-solution-item-title {
@@ -20430,7 +20430,7 @@ body.tp-magic-cursor #magic-cursor {
   margin-bottom: 15px;
   display: inline-block;
   border-radius: 100px;
-  font-family: var(--tp-ff-grotesk);
+  font-family: var(--tp-ff-heading);
   background: rgba(3, 3, 3, 0.4);
 }
 .pp-service-details-process-subtitle svg {
@@ -20924,7 +20924,7 @@ body.tp-magic-cursor #magic-cursor {
   margin-bottom: 0px;
   letter-spacing: -0.04em;
   color: var(--tp-common-white);
-  font-family: var(--tp-ff-grotesk);
+  font-family: var(--tp-ff-heading);
 }
 @media (max-width: 767px) {
   .dgm-project-title-sm {
@@ -23586,7 +23586,7 @@ body.tp-magic-cursor #magic-cursor {
   line-height: 1.56;
   letter-spacing: -0.02em;
   color: var(--tp-common-black);
-  font-family: var(--tp-ff-grotesk);
+  font-family: var(--tp-ff-heading);
 }
 .dgm-testimonial-author {
   display: inline-block;
@@ -23611,7 +23611,7 @@ body.tp-magic-cursor #magic-cursor {
   margin-bottom: 5px;
   letter-spacing: -0.02em;
   color: var(--tp-common-black);
-  font-family: var(--tp-ff-grotesk);
+  font-family: var(--tp-ff-heading);
 }
 .dgm-testimonial-author-info {
   line-height: 1;
@@ -25951,7 +25951,7 @@ body.tp-magic-cursor #magic-cursor {
   line-height: 1;
   letter-spacing: -0.02em;
   color: var(--tp-common-black);
-  font-family: var(--tp-ff-grotesk);
+  font-family: var(--tp-ff-heading);
 }
 .tp-brand-title::after {
   content: "";
@@ -26554,7 +26554,7 @@ body.tp-magic-cursor #magic-cursor {
   margin-bottom: 0;
   letter-spacing: -0.01em;
   color: var(--tp-common-black);
-  font-family: var(--tp-ff-grotesk);
+  font-family: var(--tp-ff-heading);
 }
 .dgm-team-content span {
   font-weight: 400;
@@ -27138,7 +27138,7 @@ body.tp-magic-cursor #magic-cursor {
   line-height: 1;
   letter-spacing: -0.04em;
   color: var(--tp-common-black);
-  font-family: var(--tp-ff-grotesk);
+  font-family: var(--tp-ff-heading);
 }
 .dgm-step-title-sm {
   font-weight: 700;
@@ -27147,7 +27147,7 @@ body.tp-magic-cursor #magic-cursor {
   margin-bottom: 15px;
   letter-spacing: -0.02em;
   color: var(--tp-common-black);
-  font-family: var(--tp-ff-grotesk);
+  font-family: var(--tp-ff-heading);
 }
 .dgm-step-item p {
   font-weight: 400;
@@ -28505,7 +28505,7 @@ body.tp-magic-cursor #magic-cursor {
   background-color: var(--tp-common-black);
 }
 .app-price-box.app-price-service .crp-price-head h4 {
-  font-family: var(--tp-ff-grotesk);
+  font-family: var(--tp-ff-heading);
 }
 .app-price-box.app-price-inner-style {
   background-color: transparent;

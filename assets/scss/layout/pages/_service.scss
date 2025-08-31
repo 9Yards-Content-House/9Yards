@@ -156,7 +156,7 @@
                 min-width: 100px;
                 transition: .3s;
                 color: var(--tp-common-white);
-                font-family: var(--tp-ff-grotesk);
+                font-family: var(--tp-ff-heading);
                 @media #{$xs}{
                     min-width: 100%;
                     margin-bottom: 20px;
@@ -257,7 +257,7 @@
         line-height: 1.07;
         letter-spacing: -0.02em;
         color: var(--tp-common-white);
-        font-family: var(--tp-ff-grotesk);
+        font-family: var(--tp-ff-heading);
         @media #{$md}{
             & br{
                 display: none;
@@ -1876,7 +1876,7 @@
         font-weight: 700;
         line-height: 1;
         color: #030303;
-        font-family: var(--tp-ff-grotesk);
+        font-family: var(--tp-ff-heading);
         @media #{$lg,$md} {
             font-size: 56px;
         }
@@ -1904,7 +1904,7 @@
             font-weight: 500;
             line-height: 28px;
             color: #525252;
-            font-family: var(--tp-ff-grotesk);
+            font-family: var(--tp-ff-heading);
             @media #{$lg,$md} {
                 font-size: 18px;
             }
@@ -1930,7 +1930,7 @@
                 line-height: 26px;
                 display: inline-block;
                 color: var(--tp-common-black);
-                font-family: var(--tp-ff-grotesk);
+                font-family: var(--tp-ff-heading);
                 &:not(:last-of-type){
                     margin-right: 25px;
                     &::after{
@@ -2000,7 +2000,7 @@
             line-height: 1;
             color: #030303;
             letter-spacing: -1px;
-            font-family: var(--tp-ff-grotesk);
+            font-family: var(--tp-ff-heading);
             @media #{$xxl} {
                 font-size: 45px;
             }
@@ -2042,7 +2042,7 @@
                 color: #030303;
                 margin-bottom: 16px;
                 letter-spacing: -0.34px;
-                font-family: var(--tp-ff-grotesk);
+                font-family: var(--tp-ff-heading);
                 @media #{$xs} {
                     font-size: 30px;
                 }
@@ -2761,7 +2761,7 @@
             margin-bottom: 15px;
             display: inline-block;
             border-radius: 100px;
-            font-family: var(--tp-ff-grotesk);
+            font-family: var(--tp-ff-heading);
             background: rgba($color: #030303, $alpha: 0.4);
             & svg{
                 margin-right: 4px;

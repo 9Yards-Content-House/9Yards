@@ -365,7 +365,7 @@
         margin-bottom: 40px;
         letter-spacing: -0.04em;
         color: var(--tp-common-black);
-        font-family: var(--tp-ff-grotesk);
+        font-family: var(--tp-ff-heading);
         @media #{$lg}{
             font-size: 90px;
         }
@@ -461,7 +461,7 @@
             letter-spacing: 0.04em;
             text-transform: uppercase;
             color: var(--tp-common-black);
-            font-family: var(--tp-ff-grotesk);
+            font-family: var(--tp-ff-heading);
             &::after{
                 content: "";
                 height: 60px;
@@ -490,7 +490,7 @@
             margin-bottom: 0;
             letter-spacing: -0.02em;
             color: var(--tp-common-black);
-            font-family: var(--tp-ff-grotesk);
+            font-family: var(--tp-ff-heading);
             @media #{$lg}{
                 font-size: 28px;
             }
@@ -517,7 +517,7 @@
             margin-bottom: 23px;
             letter-spacing: -0.04em;
             color: var(--tp-common-black);
-            font-family: var(--tp-ff-grotesk);
+            font-family: var(--tp-ff-heading);
             & i{
                 font-style: normal;
             }
