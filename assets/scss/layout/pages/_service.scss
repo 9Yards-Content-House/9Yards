@@ -297,7 +297,7 @@
             & .dgm-service-link{
                 transform: translateX(-30px);
                 color: var(--tp-common-black);
-                background-color: var(--tp-common-green-regular);
+                background-color: #E6411C;
                 @media #{$xs}{
                     transform: translateX(0px);
                 }
@@ -349,7 +349,7 @@
                                     color: rgba(255, 255, 255, 0.70);
                                 }
                                 & a{
-                                    border-color: var(--tp-common-green-regular);
+                                    border-color: #E6411C;
                                 }
                             }
                         }
@@ -2142,8 +2142,8 @@
             background: transparent;
             border: 1px solid #999;
             &.swiper-pagination-bullet-active{
-                border-color: var(--tp-common-green-regular);
-                background-color: var(--tp-common-green-regular);
+                border-color: #E6411C;
+                background-color: #E6411C;
             }
         }
     }
@@ -2269,7 +2269,7 @@
                 width: 220px;
                 display: grid;
                 place-content: center;
-                background-color: var(--tp-common-green-regular);
+                background-color: #E6411C;
                 @media #{$xs} {
                     position: static;
                     margin: 0;

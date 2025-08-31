@@ -2733,7 +2733,7 @@ input[type=color] {
 }
 
 .green-regular-bg {
-  background-color: var(--tp-common-green-regular);
+  background-color: #E6411C;
 }
 
 .paste-bg-2 {
@@ -9822,8 +9822,8 @@ body.tp-magic-cursor #magic-cursor {
 }
 .dgm-footer-widget-social a:hover {
   color: var(--tp-common-black);
-  border-color: var(--tp-common-green-regular);
-  background-color: var(--tp-common-green-regular);
+  border-color: #E6411C;
+  background-color: #E6411C;
 }
 .dgm-footer-widget-title {
   font-weight: 700;
@@ -9845,7 +9845,7 @@ body.tp-magic-cursor #magic-cursor {
   color: #afb2b8;
 }
 .dgm-footer-widget-menu ul li a:hover {
-  color: var(--tp-common-green-regular);
+  color: #E6411C;
 }
 .dgm-footer-widget-input input {
   font-weight: 400;
@@ -9889,7 +9889,7 @@ body.tp-magic-cursor #magic-cursor {
   color: #a1a4aa;
 }
 .dgm-footer-widget-input input:focus {
-  border-color: var(--tp-common-green-regular);
+  border-color: #E6411C;
 }
 .dgm-footer-widget-input .input-icon {
   position: absolute;
@@ -9904,7 +9904,7 @@ body.tp-magic-cursor #magic-cursor {
   transform: translateY(-50%);
 }
 .dgm-footer-widget-input .input-button span svg {
-  color: var(--tp-common-green-regular);
+  color: #E6411C;
 }
 .dgm-footer-widget-input .input-button .animated-border-box.radius-style-2 {
   border-radius: 8px;
@@ -10023,7 +10023,7 @@ body.tp-magic-cursor #magic-cursor {
   transform: translateY(-1px);
 }
 .tp-copyright-2-middle a:hover {
-  color: var(--tp-common-green-regular);
+  color: #E6411C;
 }
 .tp-copyright-2-right ul li {
   display: inline-block;
@@ -10044,7 +10044,7 @@ body.tp-magic-cursor #magic-cursor {
   transition: all 0.3s;
 }
 .tp-copyright-2-right ul li a:hover {
-  color: var(--tp-common-green-regular);
+  color: #E6411C;
 }
 .tp-copyright-2-border {
   padding-top: 22px;
@@ -17889,7 +17889,7 @@ body.tp-magic-cursor #magic-cursor {
 .dgm-service-item:hover .dgm-service-link {
   transform: translateX(-30px);
   color: var(--tp-common-black);
-  background-color: var(--tp-common-green-regular);
+  background-color: #E6411C;
 }
 @media (max-width: 767px) {
   .dgm-service-item:hover .dgm-service-link {
@@ -17928,7 +17928,7 @@ body.tp-magic-cursor #magic-cursor {
   color: rgba(255, 255, 255, 0.7);
 }
 .dgm-service-wrap.dgm-service-white .dgm-service-item:hover .dgm-service-content-right a {
-  border-color: var(--tp-common-green-regular);
+  border-color: #E6411C;
 }
 .dgm-service-radius {
   margin-bottom: -1px;
@@ -19774,8 +19774,8 @@ body.tp-magic-cursor #magic-cursor {
   border: 1px solid #999;
 }
 .tp-service-4-dot .swiper-pagination-bullet.swiper-pagination-bullet-active {
-  border-color: var(--tp-common-green-regular);
-  background-color: var(--tp-common-green-regular);
+  border-color: #E6411C;
+  background-color: #E6411C;
 }
 .tp-service-4-padding-area {
   margin: 0 20px;
@@ -19908,7 +19908,7 @@ body.tp-magic-cursor #magic-cursor {
   width: 220px;
   display: grid;
   place-content: center;
-  background-color: var(--tp-common-green-regular);
+  background-color: #E6411C;
 }
 @media (max-width: 767px) {
   .tp-service-4-process-video .dgm-testimonial-playbtn {
@@ -20977,7 +20977,7 @@ body.tp-magic-cursor #magic-cursor {
   visibility: hidden;
   border-radius: 50%;
   transform: scale(0.3);
-  background-color: var(--tp-common-green-regular);
+  background-color: #E6411C;
 }
 .dgm-project-arrow button:hover {
   transition: 0.4s;
@@ -26587,8 +26587,8 @@ body.tp-magic-cursor #magic-cursor {
 }
 .dgm-team-social a:hover {
   color: var(--tp-common-black);
-  border-color: var(--tp-common-green-regular);
-  background-color: var(--tp-common-green-regular);
+  border-color: #E6411C;
+  background-color: #E6411C;
 }
 @media (max-width: 767px) {
   .dgm-team-title-box {
@@ -27156,7 +27156,11 @@ body.tp-magic-cursor #magic-cursor {
   color: #4d5051;
   margin-bottom: 0;
 }
-.dgm-step-number {
+
+.black-bg-yard {
+  background-color: #212282;
+}
+#E6411C {
   font-weight: 700;
   font-size: 70px;
   position: absolute;
@@ -27167,7 +27171,7 @@ body.tp-magic-cursor #magic-cursor {
   -webkit-text-stroke: 1px #E6411C;
 }
 @media (max-width: 767px) {
-  .dgm-step-number {
+  #E6411C {
     left: 0;
   }
 }
@@ -28482,7 +28486,7 @@ body.tp-magic-cursor #magic-cursor {
 .app-price-box.app-price-service .crp-price-item.active .animated-border-box.radius-style-2 .tp-btn-gradient {
   background: none;
   color: var(--tp-common-black);
-  background-color: var(--tp-common-green-regular);
+  background-color: #E6411C;
 }
 .app-price-box.app-price-service .crp-price-item.active .animated-border-box.radius-style-2 .tp-btn-gradient.sm {
   border-radius: 0;

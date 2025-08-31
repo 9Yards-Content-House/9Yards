@@ -34,8 +34,8 @@
                 }
                 &:hover{
                     color: var(--tp-common-black);
-                    border-color: var(--tp-common-green-regular);
-                    background-color: var(--tp-common-green-regular);
+                    border-color: #E6411C;
+                    background-color: #E6411C;
                 }
             }
         }
@@ -59,7 +59,7 @@
                         line-height: 1;
                         color: #afb2b8;
                         &:hover{
-                            color: var(--tp-common-green-regular);
+                            color: #E6411C;
                         }
                     }
                 }
@@ -83,7 +83,7 @@
                     color: #a1a4aa;
                 }
                 &:focus{
-                    border-color:  var(--tp-common-green-regular);
+                    border-color:  #E6411C;
                 }
             }
             & .input-icon{
@@ -99,7 +99,7 @@
                 transform: translateY(-50%);
                 & span{
                     & svg{
-                        color: var(--tp-common-green-regular);
+                        color: #E6411C;
                     }
                 }
                 & .animated-border-box.radius-style-2{
@@ -201,7 +201,7 @@
                 transform: translateY(-1px);
             }
             &:hover{
-                color: var(--tp-common-green-regular);
+                color: #E6411C;
             }
         }
     }
@@ -222,7 +222,7 @@
                     color: #afb2b8;
                     transition: all .3s;
                     &:hover{
-                        color: var(--tp-common-green-regular);
+                        color: #E6411C;
                     }
                 }
             }
