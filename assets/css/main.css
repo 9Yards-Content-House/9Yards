@@ -12417,13 +12417,13 @@ body.tp-magic-cursor #magic-cursor {
 }
 .dgm-hero-title {
   font-weight: 700;
-  font-size: 110px;
-  line-height: 0.8;
+  font-size: 95px;
+  line-height: 0.9;
   margin-bottom: 0;
   margin-bottom: 40px;
   letter-spacing: -0.04em;
   color: var(--tp-common-black);
-  font-family: var(--tp-ff-grotesk);
+  font-family: var(--tp-ff-heading);
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .dgm-hero-title {
@@ -12588,7 +12588,7 @@ body.tp-magic-cursor #magic-cursor {
   margin-bottom: 23px;
   letter-spacing: -0.04em;
   color: var(--tp-common-black);
-  font-family: var(--tp-ff-grotesk);
+  font-family: var(--tp-ff-p);
 }
 .dgm-hero-funfact span i {
   font-style: normal;
