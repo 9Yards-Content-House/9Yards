@@ -2641,7 +2641,7 @@ input[type=color] {
   right: 0;
   bottom: 0;
   z-index: 1000;
-  background-color: var(--tp-theme-green);
+  background-color: #212183;
 }
 
 .preloader {
@@ -2664,7 +2664,7 @@ input[type=color] {
   width: 50px;
   height: 50px;
   border-radius: 100%;
-  background: var(--tp-common-black);
+  background: #e84117;
   animation: preloader 1.3s linear infinite;
   -webkit-animation: preloader 1.3s linear infinite;
 }
