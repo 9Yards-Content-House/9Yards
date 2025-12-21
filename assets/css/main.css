@@ -2007,6 +2007,41 @@ input[type=color] {
   }
 }
 
+.tp-btn-yellow-green.xl {
+  font-size: 18px;
+  padding: 22px 40px;
+  border-radius: 12px;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .tp-btn-yellow-green.xl {
+    font-size: 17px;
+    padding: 20px 35px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .tp-btn-yellow-green.xl {
+    font-size: 16px;
+    padding: 18px 30px;
+  }
+}
+
+@media (max-width: 767px) {
+  .tp-btn-yellow-green.xl {
+    font-size: 15px;
+    padding: 16px 28px;
+  }
+}
+
+@media (max-width: 575px) {
+  .tp-btn-yellow-green.xl {
+    font-size: 14px;
+    padding: 14px 24px;
+    border-radius: 10px;
+  }
+}
+
 .tp-btn-yellow-green.green-solid {
   gap: 8px;
   line-height: 1;
