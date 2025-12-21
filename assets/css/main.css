@@ -735,7 +735,7 @@ textarea:focus::placeholder {
         
         /* Title */
         .mega-menu-title {
-            font-family: 'Open Sans', sans-serif;
+            font-family: 'Inter', sans-serif;
             font-weight: 700;
             font-size: 18px;
             color: #212282;
@@ -752,7 +752,7 @@ textarea:focus::placeholder {
         
         /* Description */
         .mega-menu-description {
-            font-family: 'Open Sans', sans-serif;
+            font-family: 'Inter', sans-serif;
             font-weight: 400;
             font-size: 14px;
             color: #666666;
@@ -774,7 +774,7 @@ textarea:focus::placeholder {
         }
         
         .mega-menu-services li {
-            font-family: 'Open Sans', sans-serif;
+            font-family: 'Inter', sans-serif;
             font-weight: 400;
             font-size: 14px;
             color: #333333;
@@ -805,13 +805,13 @@ textarea:focus::placeholder {
             width: 100%;
             padding: 12px 20px;
             text-align: center;
-            font-family: 'Open Sans', sans-serif;
+            font-family: 'Inter', sans-serif;
             font-weight: 600;
             font-size: 14px;
             color: #212282;
             background: transparent;
             border: 2px solid #212282;
-            border-radius: 6px;
+            border-radius: 10px;
             transition: all 0.3s ease;
             margin-top: auto;
         }
