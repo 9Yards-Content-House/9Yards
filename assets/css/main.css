@@ -718,10 +718,10 @@ textarea:focus::placeholder {
   top: 100%;
   left: 50%;
   transform: translateX(-50%);
-  padding-top: 15px;
+  padding-top: 5px;
   opacity: 0;
   visibility: hidden;
-  transition: all 0.3s ease;
+  transition: all 0.1s ease;
   z-index: 9999;
 }
 
@@ -740,7 +740,7 @@ textarea:focus::placeholder {
   background: rgba(0, 0, 0, 0.05);
   z-index: -1;
   opacity: 0;
-  transition: opacity 0.3s ease;
+  transition: opacity 0.1s ease;
 }
 
 .has-mega-menu:hover .mega-menu-overlay,
@@ -783,7 +783,7 @@ textarea:focus::placeholder {
   padding: 25px;
   border-radius: 8px;
   text-decoration: none;
-  transition: all 0.3s ease;
+  transition: all 0.1s ease;
   cursor: pointer;
 }
 
