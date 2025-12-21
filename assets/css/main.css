@@ -45451,4 +45451,47 @@ body.tp-magic-cursor #magic-cursor {
   background-color: var(--tp-common-white);
 }
 
+/* 9Yards Custom - Reduced Sticky Header Height */
+.header-sticky.tp-header-9-sticky .tp-header-9-menu > nav > ul > li > a {
+  padding: 32px 0;
+}
+.header-sticky.tp-header-9-sticky .tp-header-9-logo img {
+  max-height: 79px;
+  width: auto;
+  object-fit: contain;
+}
+.header-sticky.tp-header-9-sticky .tp-header-9-btn .tp-btn-yellow-green {
+  padding: 21px 37px;
+  font-size: 14px;
+}
+.header-sticky.tp-header-9-sticky .tp-header-9-box {
+  display: flex;
+  align-items: center;
+}
+.header-sticky.tp-header-9-sticky .tp-header-9-menu > nav > ul {
+  display: flex;
+  align-items: center;
+}
+.header-sticky.tp-header-9-sticky .row {
+  align-items: center;
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+  .header-sticky.tp-header-9-sticky {
+    padding: 13px 0;
+  }
+  .header-sticky.tp-header-9-sticky .tp-header-9-logo img {
+    max-height: 73px;
+    object-fit: contain;
+  }
+}
+@media (max-width: 575px) {
+  .header-sticky.tp-header-9-sticky {
+    padding: 11px 0;
+  }
+  .header-sticky.tp-header-9-sticky .tp-header-9-logo img {
+    max-height: 64px;
+    object-fit: contain;
+  }
+}
+
 /*# sourceMappingURL=main.css.map */
