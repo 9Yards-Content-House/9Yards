@@ -37775,6 +37775,385 @@ only screen and (min-width: 768px) and (max-width: 991px) {
 }
 
 /*----------------------------------------*/
+/*  Company Profile Sections - Modern Cards
+/*----------------------------------------*/
+.tp-company-profiles {
+  background-color: #fff;
+}
+
+.tp-company-card {
+  background-color: #fff;
+  border: 1px solid #e5e5e5;
+  border-radius: 16px;
+  overflow: hidden;
+  transition: box-shadow 0.3s ease;
+}
+
+.tp-company-card:hover {
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.08);
+}
+
+.tp-company-card-alt {
+  background-color: #fafafa;
+}
+
+.tp-company-card-header {
+  padding: 40px 50px;
+  border-bottom: 1px solid #e5e5e5;
+  background-color: #fff;
+}
+
+.tp-company-card-alt .tp-company-card-header {
+  background-color: #fafafa;
+}
+
+.tp-company-card-title-wrap {
+  display: flex;
+  align-items: flex-start;
+  gap: 25px;
+}
+
+.tp-company-number {
+  font-size: 48px;
+  font-weight: 700;
+  color: #E6411C;
+  line-height: 1;
+  opacity: 0.3;
+}
+
+.tp-company-card-title {
+  font-size: 32px;
+  font-weight: 600;
+  color: #111013;
+  letter-spacing: -0.5px;
+  margin: 0;
+}
+
+.tp-company-card-body {
+  padding: 50px;
+}
+
+.tp-company-list-title {
+  font-size: 14px;
+  font-weight: 600;
+  color: #111013;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-bottom: 15px;
+}
+
+.tp-company-services-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.tp-company-services-list li {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.tp-company-services-list li i {
+  color: #E6411C;
+  font-size: 14px;
+  width: 16px;
+}
+
+.tp-company-highlights {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.tp-highlight-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 14px;
+  background-color: #f5f5f5;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 500;
+  color: #111013;
+  transition: all 0.3s ease;
+}
+
+.tp-highlight-tag i {
+  color: #E6411C;
+  font-size: 11px;
+}
+
+.tp-highlight-tag:hover {
+  background-color: #E6411C;
+  color: #fff;
+}
+
+.tp-highlight-tag:hover i {
+  color: #fff;
+}
+
+.tp-gear-rental-callout {
+  background-color: #f8f8f8;
+  border-radius: 12px;
+  padding: 30px 35px;
+  border-left: 4px solid #E6411C;
+}
+
+.tp-gear-icon {
+  width: 60px;
+  height: 60px;
+  background-color: #E6411C;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 20px;
+  flex-shrink: 0;
+}
+
+.tp-gear-icon i {
+  font-size: 24px;
+  color: #fff;
+}
+
+.tp-section-subtitle-sm {
+  font-size: 14px;
+  font-weight: 500;
+  color: #E6411C;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.tp-btn-border {
+  display: inline-block;
+  padding: 12px 28px;
+  border: 1px solid #111013;
+  color: #111013;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  text-decoration: none;
+}
+
+.tp-btn-border:hover {
+  background-color: #111013;
+  color: #fff;
+}
+
+/* Integration Benefits Section */
+.tp-integration-benefits {
+  overflow: hidden;
+}
+
+.tp-integration-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.tp-integration-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+.tp-ecosystem-circles {
+  gap: 0;
+}
+
+.tp-ecosystem-circle {
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+}
+
+.tp-ecosystem-circle:hover {
+  transform: scale(1.05);
+  z-index: 1;
+}
+
+/* CTA Section */
+.tp-cta-section .tp-btn-black {
+  padding: 16px 32px;
+  border-radius: 10px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.tp-cta-section .tp-btn-black:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+}
+
+.tp-cta-section .tp-btn-border {
+  border-color: #fff;
+  color: #fff;
+  padding: 16px 32px;
+}
+
+.tp-cta-section .tp-btn-border:hover {
+  background-color: #fff;
+  color: #111013;
+}
+
+/* Responsive Styles for Company Cards */
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+  .tp-company-card-header {
+    padding: 35px 40px;
+  }
+  .tp-company-card-body {
+    padding: 40px;
+  }
+  .tp-company-card-title {
+    font-size: 28px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .tp-company-card-header {
+    padding: 30px 35px;
+  }
+  .tp-company-card-body {
+    padding: 35px;
+  }
+  .tp-company-card-title {
+    font-size: 26px;
+  }
+  .tp-company-number {
+    font-size: 40px;
+  }
+  .tp-integration-card {
+    padding: 25px !important;
+  }
+  .tp-ecosystem-circle {
+    width: 120px !important;
+    height: 120px !important;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .tp-company-card-header {
+    padding: 30px;
+  }
+  .tp-company-card-body {
+    padding: 30px;
+  }
+  .tp-company-card-title {
+    font-size: 24px;
+  }
+  .tp-company-number {
+    font-size: 36px;
+  }
+  .tp-company-card-title-wrap {
+    gap: 15px;
+  }
+  .tp-gear-rental-callout {
+    padding: 25px;
+  }
+  .tp-gear-icon {
+    width: 50px;
+    height: 50px;
+  }
+  .tp-integration-card {
+    padding: 25px !important;
+  }
+  .tp-ecosystem-circle {
+    width: 120px !important;
+    height: 120px !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .tp-company-profiles {
+    padding-top: 80px !important;
+    padding-bottom: 80px !important;
+  }
+  .tp-company-card {
+    margin-bottom: 40px !important;
+  }
+  .tp-company-card-header {
+    padding: 25px 20px;
+  }
+  .tp-company-card-body {
+    padding: 25px 20px;
+  }
+  .tp-company-card-title {
+    font-size: 22px;
+  }
+  .tp-company-number {
+    font-size: 32px;
+  }
+  .tp-company-card-title-wrap {
+    gap: 12px;
+  }
+  .tp-company-services-list li {
+    font-size: 13px;
+  }
+  .tp-highlight-tag {
+    padding: 6px 12px;
+    font-size: 11px;
+  }
+  .tp-gear-rental-callout {
+    padding: 20px;
+    flex-direction: column;
+  }
+  .tp-gear-icon {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 15px;
+    margin-right: 0;
+  }
+  .tp-gear-rental-callout .d-flex {
+    flex-direction: column;
+    align-items: flex-start !important;
+  }
+  .tp-integration-benefits {
+    padding-top: 80px !important;
+    padding-bottom: 80px !important;
+  }
+  .tp-integration-card {
+    padding: 25px !important;
+  }
+  .tp-ecosystem-circles {
+    flex-direction: column;
+  }
+  .tp-ecosystem-circle {
+    width: 130px !important;
+    height: 130px !important;
+    margin: -15px 0 !important;
+  }
+  .tp-cta-section {
+    padding-top: 60px !important;
+    padding-bottom: 60px !important;
+  }
+  .tp-cta-buttons {
+    flex-direction: column;
+    gap: 15px !important;
+  }
+  .tp-cta-buttons a {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+@media (max-width: 575px) {
+  .tp-company-card-title {
+    font-size: 20px;
+  }
+  .tp-section-subtitle-sm {
+    font-size: 12px;
+  }
+  .tp-ecosystem-circle {
+    width: 110px !important;
+    height: 110px !important;
+  }
+  .tp-ecosystem-circle span {
+    font-size: 11px !important;
+  }
+}
+
+/*----------------------------------------*/
 /*  9.4 Cta Css
 /*----------------------------------------*/
 .app-cta-wrap {
