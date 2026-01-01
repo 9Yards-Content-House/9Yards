@@ -37746,10 +37746,21 @@ only screen and (min-width: 992px) and (max-width: 1199px) {
   letter-spacing: -0.4px;
 }
 
+.tp-benefit-item-desc {
+  font-size: 15px;
+  font-weight: 400;
+  color: #6b6b6b;
+  line-height: 1.7;
+  letter-spacing: -0.2px;
+}
+
 @media only screen and (min-width: 992px) and (max-width: 1199px),
 only screen and (min-width: 768px) and (max-width: 991px) {
   .tp-benefit-item-title {
     font-size: 18px;
+  }
+  .tp-benefit-item-desc {
+    font-size: 14px;
   }
 }
 
@@ -37757,6 +37768,9 @@ only screen and (min-width: 768px) and (max-width: 991px) {
 (max-width: 767px) {
   .tp-benefit-item-title br {
     display: none;
+  }
+  .tp-benefit-item-desc {
+    font-size: 14px;
   }
 }
 
